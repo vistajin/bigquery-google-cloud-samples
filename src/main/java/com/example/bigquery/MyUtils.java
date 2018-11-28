@@ -15,10 +15,10 @@ public class MyUtils {
     public static void setProxy() {
         // HTTP
         System.setProperty("http.proxyHost", "127.0.0.1");
-        System.setProperty("http.proxyPort", "1234");
+        System.setProperty("http.proxyPort", "1080");
         // HTTPS
         System.setProperty("https.proxyHost", "127.0.0.1");
-        System.setProperty("https.proxyPort", "1234");
+        System.setProperty("https.proxyPort", "1080");
     }
 
     public static BigQuery getBigQueryByServiceAccount() throws IOException {
